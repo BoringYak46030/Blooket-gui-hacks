@@ -4,6 +4,18 @@
 A professional-grade Chromium Console utility for Blooket, featuring an adaptive micro-bar UI, full blook injection (including Chromas), and automated reward logic.
 
 ---
+### ⚡ Quick Inject (Recommended)
+Paste this into your console for the fastest setup. It always loads the latest version:
+
+fetch('https://raw.githubusercontent.com/BoringYak46030/Blooket-gui-hacks/refs/heads/main/Index.js')
+  .then(res => res.text())
+  .then(code => {
+    eval(code);
+    console.log("%c BoringYak Loaded: v30.0 ", "color: #8ab4f8; background: #202124; font-weight: bold;");
+  });
+
+  ----------------------------------
+
 
 ## 🚀 PC Setup (Inspect Method)
 This method works on Chrome, Edge, Brave, and Opera.
